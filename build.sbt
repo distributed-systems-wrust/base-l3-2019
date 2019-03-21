@@ -11,11 +11,11 @@ lazy val proto = (project in file("proto")).enablePlugins(AkkaGrpcPlugin)
 lazy val client = (project in file("client")).dependsOn(proto).
   settings(commonSettings: _*).
   settings(
-    mainClass in assembly := Some("com.example.helloworld.GreeterClient"),
+    mainClass in assembly := Some("pl.edu.wroc.pwr.ds.GreeterClient"),
   )
 
 lazy val server = (project in file("server")).dependsOn(proto).
   settings(commonSettings: _*).
   settings(
-    mainClass in assembly := Some("com.example.helloworld.GreeterServer"),
+    mainClass in assembly := Some("pl.edu.wroc.pwr.ds.GreeterServer"),
   )

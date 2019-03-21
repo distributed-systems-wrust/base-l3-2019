@@ -24,5 +24,5 @@ Tasks:
      - define new input object
      - define new output object
      - define new method
-5. Implement method in server
+5. Implement method in the server
 6. Add new method call in the client
