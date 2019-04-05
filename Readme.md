@@ -1,7 +1,7 @@
 # 2019 - Task List 3 
 
 
- - [Akka gRPC docs](https://developer.lightbend.com/docs/akka-grpc/)
+ - [Akka gRPC docs](https://developer.lightbend.com/docs/akka-grpc/current/overview.html#akka-grpc)
  - [protobufs](https://developers.google.com/protocol-buffers/)
 
 ```bash
